@@ -9,7 +9,6 @@ div img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 auto;
 }
 
 header img{
@@ -48,6 +47,8 @@ p{
 
 iframe{
 	width: 625px;
-	max-width: 100%;
-	margin: 16px auto;
+    max-width: 85.56%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
