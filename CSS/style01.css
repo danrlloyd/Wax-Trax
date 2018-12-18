@@ -20,6 +20,7 @@ header img{
 }
 
 header{
+	margin: 0 auto;
 	width: 625px;
 	max-width: 100%;
 	padding: 40px;
