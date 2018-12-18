@@ -1,8 +1,53 @@
-body{
-	background-color: green;
+html, body{
+	margin: 0;
+	font-family: 'Lato';
+}
+
+div img{
+	width: 625px;
+	max-width: 85.56%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 auto;
+}
+
+header img{
+	width: 625px;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	background-color: #F0EBDA;
+	padding: 40px;
+	text-align: center;
 }
 
 h1{
-	text-align: center;
-	font-size: 55px;
+	font-weight: bold;
+	font-size: 3em;
+}
+
+h2{
+	font-size: 1em;
+}
+
+p{
+	padding: 16px;
+	margin: 16px auto;
+	width: 625px;
+	max-width: 95%;
+	font-size: 1em;
+	line-height: 1.618;
+  	text-align: justify;
+
+}
+
+iframe{
+	width: 625px;
+	max-width: 100%;
+	margin: 16px auto;
 }
