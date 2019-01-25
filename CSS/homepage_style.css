@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.top_nav {
+	display: grid;
+	grid-template: 0 / repeat(12, 1fr);
+	position: fixed;
+	z-index: 2;
+	background-color: rgb(30 30 30);
+	color: rgb(221 221 221);
+	margin: 0;
+}
+
+.nav_btn {
+	margin: auto;
+	padding: 0;
+	grid-column: 1 / 2;
+}
+
+.search_btn {
+	grid-column-start: 12;
+	text-align: right;
+}
+
+form {
+	grid-column: 11 / 12;
+}
+
+input {
+	font-size: 1em;
+	font-family: "Muli";
+	color: rgb(221 221 221);
+	background-color: rgb(30 30 30);
+	grid-column: 11 / 12;
+	border: none 1px rgb(221 221 221);
+	margin: auto;
+}
+
+main {
+	position: relative;
+}
+
+.banner {
+	height: 100vh;
+	display: grid;
+	grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+	background-color: rgb(30 30 30);
+	color: rgb(221 221 221);
+	border-bottom: 1px solid rgb(30 30 30);
+}
+
+header {
+	z-index: 3;
+	grid-row: 3 / 11;
+	grid-column: 3 / 11;
+}
+
+.heading {
+	margin: 0;
+	letter-spacing: 0.0382em;
+	word-spacing: 0.056em;	
+}
+
+.subhead {
+	font-family: "muli";
+	margin: auto 0 0 0;
+	text-align: right;
+	font-weight: 200;
+	font-size: 1em;
+	word-spacing: .145em;
+	letter-spacing: .09em;
+}
+
+.grid {
+	display: grid;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	background-color: rgb(30 30 30);
+	color: rgb(221 221 221);
+	font-family: "muli";
+}
+
+@media (max-width: 900px) {
+	.grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+article {
+	padding: 0;
+	margin: 0;
+}
+
+.grid img {
+	width: 100%;
+	padding: 0;
+	object-fit: cover;
+}
+
+.box a {
+	padding: 0;
+}
+
+.box h1 {
+	text-align: center;
+	margin: 0;
+	padding: 0.382em;
+	font-size: 1em;
+	word-spacing: .09em;
+	letter-spacing: .09em;
+	color: rgb(221 221 221);
+}
+
+.box:hover {
+	opacity: .6;
+}
