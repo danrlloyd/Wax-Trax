@@ -1,0 +1,26 @@
+.nav {
+	background-color: rgb(30 30 30);
+	margin: 0;
+	width: 100vw;
+}
+
+.nav-item {
+	color: rgb(221 221 221);
+}
+
+a:hover, button:hover {
+	background-color: red;
+}
+
+.btn {
+	background-color: rgb(30 30 30);
+}
+
+.dropdown-toggle {
+	color: rgb(221 221 221);
+}
+
+.dropdown-menu {
+	position: relative;
+	left: 50px;
+}
